@@ -3,6 +3,7 @@
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
+  <% if enhanced_cart.any? %>
 
   <div class="panel panel-default items">
     <table class="table table-bordered">
@@ -48,5 +49,13 @@
       <% end %>
     </div>
   </div>
+
+  <% else %>
+  <div class="alert alert-success" role="alert">
+    <h1>Your cart is empty.</h1>
+    <%= link_to 'Take me back', root_path, class: 'btn btn-success' %>
+  </div>
+
+  <% end %>
 
 </section>
