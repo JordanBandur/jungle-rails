@@ -1,0 +1,16 @@
+<div class="row line-item">
+  <div class="col-md-2">
+    <%= image_tag line_item.product.image.url, class: 'img-thumbnail' %>
+  </div>
+  <div class="col-md-6">
+    <h5><%= line_item.product.name %></h5>
+    <p><%= line_item.product.description %></p>
+  </div>
+  <div class="col-md-2">
+    <p>Quantity: <%= line_item.quantity %></p>
+  </div>
+  <div class="col-md-2">
+    <p>Total: <%= number_to_currency(line_item.total_price) %></p>
+  </div>
+</div>
+<hr>

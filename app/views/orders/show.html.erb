@@ -4,8 +4,19 @@
     <h1>Order #<%= @order.id %></h1>
   </header>
 
+  <div class="order-details">
+    <h3>Order Details</h3>
+    <div class="line-items">
+      <% @line_items.each do |line_item| %>
+        <%= render partial: 'line_item', locals: { line_item: line_item } %>
+      <% end %>
+    </div>
+  </div>
+
   <div class="order-summary jumbotron">
     <h4>Thank you for your order!</h4>
+    <p>Email: <%= @order.email %></p>
+    <p>Final Amount: <span class="currency"><%= number_to_currency(@order.total_cents / 100.0) %></span></p>
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
