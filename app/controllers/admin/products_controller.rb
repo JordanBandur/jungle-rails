@@ -1,4 +1,5 @@
 class Admin::ProductsController < ApplicationController
+  include HttpAuthenticatable
 
   def index
     @products = Product.order(id: :desc).all
