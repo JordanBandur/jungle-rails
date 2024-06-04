@@ -20,8 +20,6 @@ RSpec.describe Product, type: :model do
     it 'is not valid without a price' do
       product = Product.new(name: "Test Product", price: nil, quantity: 10, category: @category)
       product.valid? # Trigger validations
-      puts "Errors: #{product.errors.full_messages}"
-      puts "Price cents: #{product.price_cents.inspect}"
       expect(product.errors.full_messages).to include("Price can't be blank")
     end
 
