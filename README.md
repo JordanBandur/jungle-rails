@@ -1,6 +1,37 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+Jungle is an e-commerce web application designed for plant enthusiasts, providing a platform where users can browse, purchase, and manage their plant-related products. Developed using Ruby on Rails, the application leverages several features to deliver a comprehensive shopping experience.
+
+## Key Features
+
+### Product Catalog:
+
+- Users can browse through a variety of products categorized under different plant types.
+- Each product listing includes detailed information such as name, description, price, and quantity available.
+
+### User Authentication:
+
+- Users can sign up with their email, password, and personal details.
+- Login functionality allows users to securely access their accounts.
+- Session management ensures that users can stay logged in and log out when needed.
+
+### Shopping Cart:
+
+- Users can add products to their shopping cart.
+- The cart displays a summary of selected products, including the total price and quantity.
+- Users can update the cart by adding or removing items before proceeding to checkout.
+
+### Order Management:
+
+- Once users finalize their cart, they can place orders.
+- Users can view their order details, including the list of purchased items, quantities, and the total amount paid.
+- The application handles the creation and tracking of orders seamlessly.
+
+### Admin Interface:
+
+- Admins have access to a special interface for managing products and categories.
+- Admins can add, edit, and delete products and categories.
+- The admin dashboard provides an overview of the product inventory and category management.
 
 ## Screenshots
 ![Home 1](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/home-1.png)
