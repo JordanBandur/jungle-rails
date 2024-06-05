@@ -2,6 +2,15 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+## Screenshots
+![Home 1](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/home-1.png)
+![Home 2](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/home-2.png)
+![Home 3](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/home-3.png)
+![sign-up](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/sign-up.png)
+![admin dashboard](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/admin-dash.png)
+![admin categories page](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/admin-cat.png)
+![admin products page](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/admin-product.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
