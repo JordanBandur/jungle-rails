@@ -33,6 +33,58 @@ Jungle is an e-commerce web application designed for plant enthusiasts, providin
 - Admins can add, edit, and delete products and categories.
 - The admin dashboard provides an overview of the product inventory and category management.
 
+## Tech Stack
+
+### **Backend**
+- Ruby
+- Rails
+- PostgreSQL (pg)
+- Puma
+- Sass (sass-rails)
+- Webpacker
+- Turbolinks
+- Jbuilder
+- jQuery (jquery-rails)
+- bcrypt
+- Bootstrap
+- FontAwesome (font-awesome-rails)
+- Money-rails
+- Stripe
+- RMagick
+- Faker
+- CarrierWave
+- Bootsnap
+- Redis (optional for Action Cable)
+- Active Storage (optional for image processing)
+### **Development and Testing Tools**
+- Cypress
+- Database Cleaner (database_cleaner-active_record)
+- Byebug
+- dotenv-rails
+- RSpec (rspec-rails)
+- net-smtp
+- Web Console
+- Rack Mini Profiler (rack-mini-profiler)
+- Listen
+- Spring
+- Capybara
+- Selenium WebDriver
+- Webdrivers
+### **Frontend**
+- ActionCable (via @rails/actioncable)
+- ActiveStorage (via @rails/activestorage)
+- UJS (Unobtrusive JavaScript, via @rails/ujs)
+- Webpacker
+- Turbolinks
+- Webpack
+- jQuery
+- SCSS (via sass-rails)
+- Bootstrap
+- FontAwesome
+### **Development Tools for Frontend**
+- Webpack Dev Server
+- Cypress
+
 ## Screenshots
 ![Home 1](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/home-1.png)
 ![Home 2](https://github.com/JordanBandur/jungle-rails/blob/master/sceenshots/home-2.png)
